@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de contacto</h1>
+    </header>
+
+    <hr />
+
+    <main>
+        <div>
+            <h2>
+                Este es un Formulario para que puedas contactarnos
+            </h2>
+            <p>
+                Si tienes preguntas sobre nuestros servicios o deseas una consulta personalizada, completa el siguiente
+                formulario y nos pondremos en contacto contigo a la brevedad.
+            </p>
+        </div>
+
+        <hr />
+
+        <form>
+            <h3>Información General:</h3>
+            <div>
+                <label for="nombre">Nombre : </label>
+                <input type="text" name="nombre" placeholder="Nombre" />
+            </div>
+
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" placeholder="Apellido" />
+            </div>
+
+            <div>
+                <label for="correo">Correo Electronico: </label>
+                <input type="text" name="correo" placeholder="Correo Electronico" />
+            </div>
+
+            <div>
+                <label for="Numero de Telefono">Numero De Celular </label>
+                <input type="number" name="Numero De Telefono=" placeholder="Numero De Telefono" />
+            </div>
+
+            <h4>¿Qué tipo de consulta requieres?</h4>
+
+            <div>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="consulta" />
+                        <label for="tipo de consulta">Consulta veterinaria</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="Cirugía" />
+                        <label for="tipo de consulta">Cirugía</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="Peluquería y baño" />
+                        <label for="tipo de consulta">Peluquería y baño</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="Cuidados especiales para animales" />
+                        <label for="tipo de consulta">Cuidados especiales para animales</label>  
+                    </li>
+                    
+                    <li>
+                        <input type="checkbox" name="Otro:" />
+                        <label for="tipo de consulta">Otro</label> <input type="text" name="Otro:" placeholder="Descripcion"  /> 
+                    </li>
+                    
+                </ul>
+                
+
+            </div>
+
+            <hr />
+
+
+            <h3>Información Personalizada:</h3>
+            <div>
+                <label for="nombre">Nombre de tu Mascota: </label>
+                <input type="text" name="nombre" placeholder="Nombre de tu Mascota" />
+            </div>
+
+            <div>
+                <label for="especie">Especie de tu Mascota: </label>
+                <input type="text" name="especie" placeholder="Perro, Gato, Etc..." />
+            </div>
+
+            <div>
+                <label for="edad">Edad de tu Mascota: </label>
+                <input type="number" name="edad" placeholder="Edad de tu Mascota" />
+            </div>
+
+            <div>
+                <label for="detalles">Detalles adicionales sobre la consulta:</label>
+                <input type="text" name="detalles" placeholder="enfermedad, síntomas, etc" />
+            </div>
+
+            <hr />
+
+            <h3>Comentarios Adicionales:</h3>
+            <div>
+                <input type="text" name="detalles" placeholder="Comentarios" />
+            </div>
+
+            <hr />
+
+            <h3>¿Cómo prefieres que te contactemos?</h3>
+            <div>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="telefono" >
+                        <label for="telefono">Vía telefónica</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" name="correo" >
+                        <label for="correo">Correo electrónico</label>
+                    </li>
+                </ul>
+            </div>
+
+            <hr />
+
+
+
+            <button>ENVIAR</button>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
